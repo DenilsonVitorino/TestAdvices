@@ -16,7 +16,7 @@ public class AdviceController {
     public AdviceController() {
         restService = new RestService();
         url = "https://api.adviceslip.com/advice";
-    }
+    } 
 
     @GetMapping("/test")
     public String test() {
